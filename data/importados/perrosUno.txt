@@ -1,0 +1,10 @@
+2,Firulais,1,Labrador
+4,Mateo,3,Pitbull
+1,Rocky,2,Pug
+3,Bruno,5,Chihuahua
+6,Zeus,10,Chow Chow
+8,Calvin,7,Bulldog
+9,Loki,11,Beagle
+7,Nico,8,Bull terrier
+10,Ramon,4,Doberman
+5,Copito,2,Poodle

@@ -1,0 +1,10 @@
+2,1005871662,Maria,Rodriguez,4221841,calle14#71-2
+4,1005074552,Jose,Molina,4224080,carrera#12-13
+1,1905666002,Lina,Morales,4218241,diagonal#41-2
+3,6683218442,Laura,Gonzales,4021942,calle5#93-42
+6,1106592467,Esteban,Lopez,4031704,transversal23#71-2
+8,1856712893,Sofia,Herrera,3025891,calle8#42-20
+9,1665478220,Monica,Diaz,4412354,carrera17#6-22
+7,6895274120,Claudia,Castillo,3018596,calle9#82-92
+10,4155874544,Carlos,Medina,4228795,diagonal#31-22
+5,8574412266,Juan,Jimenez,4226073,carrera10#71-2

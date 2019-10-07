@@ -1,0 +1,10 @@
+6,Luis,Persa
+4,Tom,Bengala
+5,Simba,Siames
+7,Felix,Sphynx
+9,Romeo,ragdoll
+10,Silvestre,Munchkin
+8,Lola,Turco
+1,Pelusa,Toyger
+3,Kira,Abisinio
+2,Mishu,Bombay
