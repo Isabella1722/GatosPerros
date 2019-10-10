@@ -1,6 +1,6 @@
 package modelo;
 
-public class Gato {
+public class Gato implements Comparable <Gato> {
 
 	private int id;
 	private String nombre,raza;
@@ -94,6 +94,17 @@ public class Gato {
 
 	public void setDireccion(String direccion) {
 		this.direccion = direccion;
+	}
+	
+	@Override
+	
+	public int compareTo(Gato gat) {
+		// TODO Auto-generated method stub
+		 return nombre.compareTo(gat.getNombre());
+	}
+	public int compareToRazaG(Gato gatR) {
+		// TODO Auto-generated method stub
+		 return raza.compareTo(gatR.getRaza());
 	}
 
 }

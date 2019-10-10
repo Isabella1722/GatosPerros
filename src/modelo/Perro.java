@@ -1,7 +1,8 @@
 package modelo;
 
 
-public class Perro {
+
+public class Perro  implements Comparable <Perro> {
 	private int id,edad;
 	private String nombre,raza;
 	private int  telefono;
@@ -16,6 +17,8 @@ public class Perro {
 		this.raza = raza;
 	
 	}
+	
+	
 
 
 	public float getIdentificacion() {
@@ -106,4 +109,15 @@ public class Perro {
 	public void setRaza(String raza) {
 		this.raza = raza;
 	}
+	@Override
+	public int compareTo(Perro per) {
+		// TODO Auto-generated method stub
+		 return nombre.compareTo(per.getNombre());
+	}
+	public int compareToRaza(Perro perR) {
+		// TODO Auto-generated method stub
+		 return raza.compareTo(perR.getRaza());
+	}
+	
+
 }

@@ -2,6 +2,7 @@ package modelo;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 
 import modelo.ListaPerro;
@@ -14,6 +15,7 @@ public class Logica {
 	private ListaPerro listaPerro;
 	private ListaGato listaGato;
 	private ListaPropietario listaPropietarios;
+	 //ArrayList   ListaFinalPerros [];
 
 	public Logica(PApplet app) {
 		this.app = app;
@@ -145,9 +147,70 @@ public class Logica {
 			app.text(listaGato.getListG().get(i).getNombrePropietarioG(), 450, 50 + (i * 50));
 			app.text(listaGato.getListG().get(i).getApellido(), 600, 50 + (i * 50));
 			app.text(listaGato.getListG().get(i).getTelefono(), 750, 50 + (i * 50));
-			app.text(listaGato.getListG().get(i).getDireccion(), 850, 50 + (i * 50));
+			app.text(listaGato.getListG().get(i).getDireccion(), 890, 50 + (i * 50));
 			
 		}
 	}
-
+	
+	public void ordenamientoPerro(char letra) {
+		switch (letra) {
+		case 'n':
+			listaPerro.compararPorNombre();
+			break;
+		case 'e':
+			listaPerro.compararPorEdad();
+			break;
+		case 'i':
+			listaPerro.compararPorId();
+			break;
+			
+		case 'r':
+			listaPerro.compararPorRaza();
+			break;
+	
+		}
+	}
+		public void ordenamientoGato(char letra) {
+			switch (letra) {
+			case 'n':
+				listaGato.compararPorNombreGato();
+				break;
+		
+			case 'i':
+				listaGato.compararPorIdGato();
+				break;
+				
+			case 'r':
+				listaGato.compararPorRazaGato();
+				break;
+		
+			
+		}
+		
+		
+	
 }
+	public void crearArregloFinal(){
+		/*
+        if(this.palabrasComparadasMayus.length>=4){
+            if(mouseX>499 && mouseX<580 && mouseY>450 && mouseY<530){
+                for (let index = 0; index < this.palabrasObjCaen.length; index++) {
+                    if(!this.palabrasComparadasMayus.includes(this.palabrasObjCaen[index].getTexto().toUpperCase())){
+                        this.listaFinalPalabras.push(this.palabrasObjCaen[index].getTexto());
+                    }
+                   
+                }
+                this.ListaFinalPerros =  this.ListaFinalPerros.concat(this.palabrasComparadasMayus);
+                saveStrings("newList.txt" ,ListaFinalPerros);
+            }
+            
+        }
+
+        console.log(this.palabrasComparadasMayus);
+       
+    }*/
+
+	
+
+
+}}
